@@ -7,7 +7,7 @@ final class CalculateTest extends TestCase{
 	public function testAdd():void{
 		include_once "src/calculate.php";
 		$calculate=new Calculate();
-		$this->assertEquals(  $calculate->add(8,7), 12);
+		$this->assertEquals(  $calculate->add(5,7), 12);
 	}
 
 	public function testDivide():void{
